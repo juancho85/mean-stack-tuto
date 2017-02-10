@@ -7,4 +7,4 @@ var schema = new Schema({
 });
 
 //the default collection name will be messages (plural form all lowercase)
-module.exports = mongoose.module('Message', schema);
+module.exports = mongoose.model('Message', schema);
